@@ -305,8 +305,6 @@ FEATURES
 }
 
 .features-grid-template {
-	grid-template-columns: 25% 25% 25% 25%;
-	grid-template-rows: 20% 80%;
     grid-template-areas: 
         "features-title features-title features-title features-title"
         "features-research features-qa features-warehouse features-delivery";
@@ -345,8 +343,8 @@ WE
 }
 
 .we-grid-template {
-	grid-template-columns: 50% 50%;
-	grid-template-rows: 20% 80%;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
     grid-template-areas: 
         "we-title we-title"
         "we-image we-list";
@@ -609,8 +607,8 @@ FOOTER
 }
 
 .footer-grid-template {
-	grid-template-columns: 25% 25% 25% 25%;
-	grid-template-rows: 20% 80%;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
     grid-template-areas: 
         "footer-title footer-title footer-title footer-title"
         "footer-back footer-contactus footer-social footer-references";
