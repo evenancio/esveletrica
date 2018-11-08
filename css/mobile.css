@@ -27,6 +27,10 @@
         padding: 60px 0;
     }
 
+    .header-text-box {
+        padding-top: 75px;
+    }
+
     .long-copy {
         width: 99%;
         margin-left: 0;
